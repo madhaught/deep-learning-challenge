@@ -24,6 +24,5 @@ The purpose of the analysis is to evaluate the deep learning model that I create
     * The third method I tried to optimize the model involved using the features that I trimmed in the second attempt to create another tuner to find an optimal model with Hyperband tuning. The best model that resulted from this attempt had an accuracy of 73.35%. Because the
 * I was not able to achieve the target performance but I got closest with my first attempt at optimization using the Hyperband tuning method.
 
-## Summary and Recommendatoin:
+## Summary and Recommendation:
 The deep learning model that I created was close to the goal of performance goal of 75% accuracy, but fell short even with three attempts at optimization. Further attempts to optimize the model may get it closer to the goal performance score. I would recommend attempting the use of a decision tree or random forest model to solve this classification problem. Because the features used to predict the target are categorical a decision tree would be useful. If the model still had trouble predicting the data, it would be useful to employ a random forest model instead.
-A different model could solve this classification problem because
