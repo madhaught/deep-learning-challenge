@@ -20,8 +20,8 @@ The purpose of the analysis is to evaluate the deep learning model that I create
 * The accuracy of the initial model was 72.97% The target performance of the model would be 75%
 * The following were my attempts to improve model accuracy:
     * To attempt to improve the accuracy of the model, I first tried Hyperband tuning to find the optimal number of layers, neurons, and activation functions to employ. In doing this tuning I created a model that had 73.36% accuracy, closer to the target performance. 
-    * I tried a second method of optimizatoin by using a random forest model to evaluate feature importance and eliminate features which appeared to have little importance to the model finding the target. Through this process I eliminated the STATUS and SPECIAL_CONSIDERATIONS features. I then created another instance of a deep learning model. This model had an accuracy score of 73.05%
-    * The third method I tried to optimize the model involved using the features that I trimmed in the second attempt to create another tuner to find an optimal model with Hyperband tuning. The best model that resulted from this attempt had an accuracy of 73.35%. Because the
+    * I tried a second method of optimizatoin by using a random forest model to evaluate feature importance and eliminate features which appeared to have little importance to the model finding the target. Through this process I eliminated the STATUS and SPECIAL_CONSIDERATIONS features. I then created another instance of a deep learning model using the same parameters as the first model (before optimization attempts). This model had an accuracy score of 73.05%
+    * The third method I tried to optimize the model involved using the features that I trimmed in the second attempt to create another tuner to find an optimal model with Hyperband tuning. The best model that resulted from this attempt had an accuracy of 73.35%. 
 * I was not able to achieve the target performance but I got closest with my first attempt at optimization using the Hyperband tuning method.
 
 ## Summary and Recommendation:
